@@ -107,7 +107,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> Music Recomendation </h1>
+      <h1> Music Recommendation </h1>
       <p>Hey There, Checkout my favourite Music.</p>
 
       <div>
