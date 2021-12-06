@@ -1,4 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .App {
-  font-family: sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 3rem;
+}
+
+:root {
+  --primary-color: #ee7a37;
+  --secondary-color: #252930;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  color: rgb(202, 201, 201);
+  font-family: monospace;
+}
+button {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  margin: 1rem 0.5rem;
+  font-weight: bold;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  padding: 1rem;
+  width: 90%;
+  margin: 1rem 0rem;
+  border-radius: 0.2rem;
+  background-color: #eeeeee;
+}
+
+.div-flex {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+.div-img {
   text-align: center;
+}
+
+.div-name {
+  font-size: 1.5rem;
+}
+
+.div-singer {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: bold;
 }
